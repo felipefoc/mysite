@@ -9,5 +9,3 @@ def home():
 @app.route('/projects')
 def projects():
     return render_template('home.html', active_page='home')
-
-app.run(debug=True)
